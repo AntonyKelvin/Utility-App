@@ -7,7 +7,7 @@ function lineBreak(){
     console.log("-------------------------------------------------------------------------------");
 }
 
-//Checks if the check is in the options
+//Checks if the element is in the options
 const isValid = (options, element) => {
   if(options.indexOf(element) !== -1){
     return true;
